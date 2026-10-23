@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion="[1,)"
+license="${license}"
+showAsResourcePack=false
+
+[[mods]]
+modId="${id}"
+version="${modversion}"
+displayName="${display_name}"
+authors="${author}"
+description="${description}"
+logoFile="assets/${namespace}/textures/mod_logo.png"
+displayURL = "https://github.com/${github}/${name}/"
+
+[[mixins]]
+config = "mixins.${id}.json"
+
+[[dependencies."${id}"]]
+modId="minecraft"
+mandatory=true
+versionRange="${mc}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies."${id}"]]
+modId="sodiumoptionsapi"
+mandatory=true
+versionRange="*"
+ordering="NONE"
+side="CLIENT"
