@@ -43,4 +43,4 @@ The jar also includes code from DeeChael's EmbyUI under the MIT License (`META-I
 > Modifications copyright (c) 2026 K1NGANG0RR0T
 
 ## Issues
-Please report problems with this fork here, not to the original author: `<ISSUES LINK>`
+Please report problems with this fork here, not to the original author: `https://github.com/K1NGANG0RR0T/K1NGANG0RR0T-s-Sodium-Mod-Options`
